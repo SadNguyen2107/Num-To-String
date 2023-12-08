@@ -2,7 +2,7 @@ namespace NumToString
 {
     public class Number
     {
-        public static Dictionary<int, string> lookUpTable = new Dictionary<int, string>{
+        public readonly static Dictionary<int, string> lookUpTable = new Dictionary<int, string>{
             {0, "zero"},
             {1, "one"},
             {2, "two"},
